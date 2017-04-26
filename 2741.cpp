@@ -1,11 +1,11 @@
-#include<iostream>
+#include<cstdio>
 using namespace std;
 
 int main() {
 	int t = 0;
-	cin >> t;
-	for (int i = 0; i < t; i++) {
-		cout << i + 1 << endl;
+	scanf("%d", &t);
+	for (int i = 1; i <= t; i++) {
+		printf("%d\n", i);
 	}
 	return 0;
 }
